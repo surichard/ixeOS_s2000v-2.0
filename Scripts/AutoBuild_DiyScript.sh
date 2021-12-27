@@ -7,10 +7,10 @@ Firmware_Diy_Core() {
 	Author=AUTO
 	Author_URL=AUTO
 	Default_IP="192.168.1.1"
-	Banner_Message="Powered by AutoBuild-Actions"
+	Banner_Message="Powered by ixecloud tech"
 
 	Short_Firmware_Date=true
-	Checkout_Virtual_Images=false
+	Checkout_Virtual_Images=true
 	Firmware_Format=AUTO
 	REGEX_Skip_Checkout="packages|buildinfo|sha256sums|manifest|kernel|rootfs|factory"
 
@@ -24,7 +24,7 @@ Firmware_Diy() {
 	# 请在该函数内定制固件, 建议使用专业文本编辑器进行修改
 
 	# 可用预设变量, 其他可用变量请参考运行日志
-	# ${OP_AUTHOR}			OpenWrt 源码作者
+	 ${OP_AUTHOR}			MOD Richard
 	# ${OP_REPO}			OpenWrt 仓库名称
 	# ${OP_BRANCH}			OpenWrt 源码分支
 	# ${TARGET_PROFILE}		设备名称, 例如: d-team_newifi-d2
